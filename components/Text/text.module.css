@@ -1,0 +1,24 @@
+.textContainer {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .textContainer h2 {
+    font-size: 1.2rem; /* Smaller text for mobile */
+  }
+  
+  .textContainer p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  @media (min-width: 768px) {
+    .textContainer h2 {
+      font-size: 1.5rem; /* Scale up for larger screens */
+    }
+  
+    .textContainer p {
+      font-size: 1rem;
+    }
+  }
